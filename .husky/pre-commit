@@ -1,0 +1,3 @@
+bun test
+bun run standard --fix
+bun run standard

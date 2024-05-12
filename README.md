@@ -1,4 +1,12 @@
-# leetcode
+# Leetcode challenges
+
+This repository contains solutions to some of the leetcode challenges.
+
+## Challenges
+
+- [Top interview 150](https://leetcode.com/studyplan/top-interview-150/)
+
+## Setup
 
 To install dependencies:
 
@@ -12,4 +20,8 @@ To run:
 bun run index.ts
 ```
 
-This project was created using `bun init` in bun v1.0.29. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+To run tests:
+
+```bash
+bun test
+```
