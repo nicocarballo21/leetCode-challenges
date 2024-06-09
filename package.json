@@ -9,6 +9,10 @@
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
   "scripts": {
     "prepare": "husky"
   }

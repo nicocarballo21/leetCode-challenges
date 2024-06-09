@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": false,
+  // suggest new user to install the recommended extensions
+  "extensions.ignoreRecommendations": false,
+  "standard.enable": true,
+  "standard.autoFixOnSave": true,
+  
+}

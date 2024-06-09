@@ -1,24 +1,24 @@
-import { expect, describe, it } from "bun:test";
+import { expect, describe, it } from 'bun:test'
 
-import solution from "../challenges/lengthofLastWord";
-import { measureExecutionTime } from "../utils";
+import solution from '../challenges/lengthofLastWord'
+import { measureExecutionTime } from '../utils'
 
-describe("Length of Last Word", () => {
-  measureExecutionTime(solution, "Hello World");
-  it("a", () => {
-    const s = "Hello World";
-    expect(solution(s)).toBe(5);
-  });
-  it("b", () => {
-    const s = "   fly me   to   the moon  ";
-    expect(solution(s)).toBe(4);
-  });
-  it("c", () => {
-    const s = "luffy is still joyboy";
-    expect(solution(s)).toBe(6);
-  });
-  it("d", () => {
-    const s = "a";
-    expect(solution(s)).toBe(1);
-  });
-});
+describe('Length of Last Word', () => {
+  measureExecutionTime(solution, 'Hello World')
+  it('a', () => {
+    const s = 'Hello World'
+    expect(solution(s)).toBe(5)
+  })
+  it('b', () => {
+    const s = '   fly me   to   the moon  '
+    expect(solution(s)).toBe(4)
+  })
+  it('c', () => {
+    const s = 'luffy is still joyboy'
+    expect(solution(s)).toBe(6)
+  })
+  it('d', () => {
+    const s = 'a'
+    expect(solution(s)).toBe(1)
+  })
+})
