@@ -20,6 +20,6 @@ export function measureExecutionTime (func, param) {
   console.log(
     '\x1b[42m',
     `-> The average execution time for ${EXECUTIONS} executions is: ${averageTime} ms\n`,
-    `-> Time for ${EXECUTIONS}: ${mainEnd - mainStart} ms`
+    `-> Time for ${EXECUTIONS}: ${mainEnd - mainStart} ms\n`
   )
 }
