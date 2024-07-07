@@ -2,7 +2,7 @@ import { expect, test, it } from 'bun:test'
 
 import solution from '../challenges/romantoInteger'
 
-test('romantoInteger', () => {
+test('Roman to Integer', () => {
   it('a', () => {
     const inputA = 'III'
     expect(solution(inputA)).toBe(3)

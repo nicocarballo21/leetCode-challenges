@@ -1,11 +1,8 @@
 import { expect, describe, it } from 'bun:test'
 
 import solution from '../challenges/longestCommonPrefix'
-import { measureExecutionTime } from '../utils'
 
 describe('Longest Common Prefix', () => {
-  measureExecutionTime(solution, ['flower', 'flow', 'flight'])
-
   it('a', () => {
     const s = ['flower', 'flow', 'flight']
     expect(solution(s)).toBe('fl')

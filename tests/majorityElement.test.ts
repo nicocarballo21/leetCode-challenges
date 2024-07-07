@@ -2,7 +2,7 @@ import { expect, describe, it } from 'bun:test'
 
 import solution from '../challenges/majorityElement'
 
-describe('majorityElement', () => {
+describe('Majority Element', () => {
   it('a', () => {
     expect(solution([3, 2, 3])).toBe(3)
   })

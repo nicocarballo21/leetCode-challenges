@@ -2,7 +2,7 @@ import { expect, test, it } from 'bun:test'
 
 import { solution } from '../challenges/findtheIndexoftheFirstOccurrenceinaString'
 
-test('28', () => {
+test('Find the Index of the First Occurrence in a String', () => {
   it('should return the index of the first occurrence of needle in haystack', () => {
     const haystack = 'sadbutsad'
     const needle = 'sad'

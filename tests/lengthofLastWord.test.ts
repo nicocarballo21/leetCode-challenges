@@ -1,10 +1,8 @@
 import { expect, describe, it } from 'bun:test'
 
 import solution from '../challenges/lengthofLastWord'
-import { measureExecutionTime } from '../utils'
 
 describe('Length of Last Word', () => {
-  measureExecutionTime(solution, 'Hello World')
   it('a', () => {
     const s = 'Hello World'
     expect(solution(s)).toBe(5)
