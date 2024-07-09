@@ -1,6 +1,6 @@
 import { expect, test } from 'bun:test'
 
-import fn from '../challenges/bestTimetoBuyandSellStock'
+import fn from '../../challenges/array-strings/bestTimetoBuyandSellStock'
 
 test('Best Time to Buy and Sell Stock', () => {
   expect(fn([7, 1, 5, 3, 6, 4])).toBe(5)

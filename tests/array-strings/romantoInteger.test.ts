@@ -1,6 +1,6 @@
 import { expect, test, it } from 'bun:test'
 
-import solution from '../challenges/romantoInteger'
+import solution from '../../challenges/array-strings/romantoInteger'
 
 test('Roman to Integer', () => {
   it('a', () => {

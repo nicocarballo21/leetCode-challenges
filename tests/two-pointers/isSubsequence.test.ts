@@ -1,6 +1,6 @@
 import { expect, describe, it } from 'bun:test'
 
-import solution from '../challenges/isSubsequence'
+import solution from '../../challenges/two-pointers/isSubsequence'
 
 describe('Is Subsequence', () => {
   it('a', () => {

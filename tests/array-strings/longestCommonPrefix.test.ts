@@ -1,6 +1,6 @@
 import { expect, describe, it } from 'bun:test'
 
-import solution from '../challenges/longestCommonPrefix'
+import solution from '../../challenges/array-strings/longestCommonPrefix'
 
 describe('Longest Common Prefix', () => {
   it('a', () => {

@@ -1,6 +1,6 @@
 import { expect, describe, it } from 'bun:test'
 
-import solution from '../challenges/lengthofLastWord'
+import solution from '../../challenges/array-strings/lengthofLastWord'
 
 describe('Length of Last Word', () => {
   it('a', () => {

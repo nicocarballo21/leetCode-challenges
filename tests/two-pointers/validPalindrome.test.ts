@@ -1,6 +1,6 @@
 import { expect, describe, it } from 'bun:test'
 
-import solution from '../challenges/validPalindrome'
+import solution from '../../challenges/two-pointers/validPalindrome'
 
 describe('Valid palindrome', () => {
   it('a', () => {

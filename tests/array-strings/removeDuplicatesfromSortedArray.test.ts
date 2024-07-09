@@ -1,6 +1,6 @@
 import { expect, describe, it } from 'bun:test'
 
-import fn from '../challenges/removeDuplicatesfromSortedArray'
+import fn from '../../challenges/array-strings/removeDuplicatesfromSortedArray'
 
 describe('Remove Duplicates from Sorted Array', () => {
   it('a', () => {
