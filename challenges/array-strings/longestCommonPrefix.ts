@@ -11,8 +11,6 @@ export default function solution (strs: string[]): string {
 
   while (isCommon) {
     currentChar = strs[0][i]
-    console.log('currentChar', currentChar)
-
     if (currentChar === undefined) break
 
     for (let j = 1; j < strs.length; j++) {
